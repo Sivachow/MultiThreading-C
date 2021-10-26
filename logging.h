@@ -1,3 +1,7 @@
 #include<stdio.h>
-FILE* startLog(int argc, char * argv[]);
-void logchar(FILE* f, char str);
+#include <stdlib.h>
+#include<string.h>
+
+void startLog(int argc, char * argv[]);
+void logstr(char * str);
+

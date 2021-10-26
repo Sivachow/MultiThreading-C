@@ -1,2 +1,4 @@
 #include<stdio.h>
-void input(FILE * f);
+#include"logging.h"
+#include<stdlib.h>
+#include"thread.h"
